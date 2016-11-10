@@ -17,6 +17,11 @@ public class Food implements Serializable {
     private FoodType type;
     private boolean featured;
 
+    public Food() {
+
+
+    }
+
     public Food(int id, String name, String picture, FoodType type, float price, boolean featured) {
 
         this.id = id;

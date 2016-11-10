@@ -15,7 +15,7 @@ public enum FoodType {
     private String value;
     private String background;
 
-    private  FoodType(String value, String background){
+    FoodType(String value, String background){
         this.value = value;
         this.background = background;
     }
